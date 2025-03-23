@@ -1,0 +1,9 @@
+myapp/
+│
+├── app.py            # التطبيق (FastAPI)
+├── models.py         # النماذج (Pydantic models)
+├── repository.py     # العمليات (CRUD Operations)
+├── database.py       # الاتصال بقاعدة البيانات
+├── config.py         # تحميل الإعدادات باستخدام Pydantic BaseSettings
+├── .env              # ملف الإعدادات البيئية
+└── main.py           # نقطة دخول البرنامج (تشغيل التطبيق)
